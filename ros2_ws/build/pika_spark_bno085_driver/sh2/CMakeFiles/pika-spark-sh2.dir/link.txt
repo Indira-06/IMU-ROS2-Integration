@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpika-spark-sh2.a CMakeFiles/pika-spark-sh2.dir/sh2_util.c.o CMakeFiles/pika-spark-sh2.dir/shtp.c.o CMakeFiles/pika-spark-sh2.dir/sh2_SensorValue.c.o CMakeFiles/pika-spark-sh2.dir/sh2.c.o
+/usr/bin/ranlib libpika-spark-sh2.a

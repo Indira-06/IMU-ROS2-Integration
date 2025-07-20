@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:13 (add_subdirectory):
+  The source directory
+
+    /home/indira/ros2_ws/src/pika-spark-bno085-driver/sh2
+
+  does not contain a CMakeLists.txt file.
+
+[0m

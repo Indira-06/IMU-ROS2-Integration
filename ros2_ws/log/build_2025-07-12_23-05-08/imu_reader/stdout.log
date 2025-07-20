@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing imu_reader.egg-info/PKG-INFO
+writing dependency_links to imu_reader.egg-info/dependency_links.txt
+writing entry points to imu_reader.egg-info/entry_points.txt
+writing requirements to imu_reader.egg-info/requires.txt
+writing top-level names to imu_reader.egg-info/top_level.txt
+reading manifest file 'imu_reader.egg-info/SOURCES.txt'
+writing manifest file 'imu_reader.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu-reader.egg-link (link to .)
+Installing serial_node script to /home/indira/ros2_ws/install/imu_reader/lib/imu_reader
+
+Installed /home/indira/ros2_ws/build/imu_reader
+running symlink_data
+symbolically linking /home/indira/ros2_ws/build/imu_reader/resource/imu_reader -> /home/indira/ros2_ws/install/imu_reader/share/ament_index/resource_index/packages
+symbolically linking /home/indira/ros2_ws/build/imu_reader/package.xml -> /home/indira/ros2_ws/install/imu_reader/share/imu_reader

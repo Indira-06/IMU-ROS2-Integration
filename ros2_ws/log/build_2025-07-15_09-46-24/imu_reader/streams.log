@@ -1,0 +1,17 @@
+[0.628s] Invoking command in '/home/indira/ros2_ws/build/imu_reader': PYTHONPATH=/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indira/ros2_ws/build/imu_reader/build --no-deps symlink_data
+[0.771s] running develop
+[0.858s] running egg_info
+[0.858s] writing imu_reader.egg-info/PKG-INFO
+[0.858s] writing dependency_links to imu_reader.egg-info/dependency_links.txt
+[0.858s] writing entry points to imu_reader.egg-info/entry_points.txt
+[0.858s] writing requirements to imu_reader.egg-info/requires.txt
+[0.858s] writing top-level names to imu_reader.egg-info/top_level.txt
+[0.859s] reading manifest file 'imu_reader.egg-info/SOURCES.txt'
+[0.861s] writing manifest file 'imu_reader.egg-info/SOURCES.txt'
+[0.862s] running build_ext
+[0.862s] Creating /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu-reader.egg-link (link to .)
+[0.863s] Installing serial_node script to /home/indira/ros2_ws/install/imu_reader/lib/imu_reader
+[0.863s] 
+[0.863s] Installed /home/indira/ros2_ws/build/imu_reader
+[0.863s] running symlink_data
+[0.881s] Invoked command in '/home/indira/ros2_ws/build/imu_reader' returned '0': PYTHONPATH=/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indira/ros2_ws/build/imu_reader/build --no-deps symlink_data

@@ -1,0 +1,200 @@
+[0.135s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.135s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77cd62f23d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77cd630d09a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77cd630d09a0>>)
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.261s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/indira/ros2_ws'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_reader) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_reader' with type 'ros.ament_python' and name 'imu_reader'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/pika-spark-bno085-driver) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pika-spark-bno085-driver' with type 'ros.ament_cmake' and name 'pika_spark_bno085_driver'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/indira/ros2_ws/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/indira/micro-ROS-Agent/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'imu_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'imu_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/indira/ros2_ws/build/imu_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/indira/ros2_ws/install/imu_reader', 'merge_install': False, 'path': '/home/indira/ros2_ws/src/imu_reader', 'symlink_install': True, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'pika_spark_bno085_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'pika_spark_bno085_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/indira/ros2_ws/build/pika_spark_bno085_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/indira/ros2_ws/install/pika_spark_bno085_driver', 'merge_install': False, 'path': '/home/indira/ros2_ws/src/pika-spark-bno085-driver', 'symlink_install': True, 'test_result_base': None}
+[0.336s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.337s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/indira/ros2_ws/src/imu_reader' with build type 'ament_python'
+[0.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_reader', 'ament_prefix_path')
+[0.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/hook/ament_prefix_path.ps1'
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/hook/ament_prefix_path.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/hook/ament_prefix_path.sh'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/indira/ros2_ws/src/pika-spark-bno085-driver' with build type 'ament_cmake'
+[0.345s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/indira/ros2_ws/src/pika-spark-bno085-driver'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/indira/ros2_ws/src/imu_reader'
+[0.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake /home/indira/ros2_ws/src/pika-spark-bno085-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/indira/ros2_ws/install/pika_spark_bno085_driver
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indira/ros2_ws/build/imu_reader': PYTHONPATH=/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indira/ros2_ws/build/imu_reader/build --no-deps symlink_data
+[1.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_reader', 'pythonpath_develop')
+[1.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/build/imu_reader/share/imu_reader/hook/pythonpath_develop.ps1'
+[1.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indira/ros2_ws/build/imu_reader' returned '0': PYTHONPATH=/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indira/ros2_ws/build/imu_reader/build --no-deps symlink_data
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indira/ros2_ws/build/imu_reader/share/imu_reader/hook/pythonpath_develop.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/build/imu_reader/share/imu_reader/hook/pythonpath_develop.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader' for CMake module files
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader' for CMake config files
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader/lib'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader/lib/pkgconfig/imu_reader.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages'
+[1.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_reader', 'pythonpath')
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/hook/pythonpath.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/hook/pythonpath.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/hook/pythonpath.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/imu_reader/bin'
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_reader)
+[1.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/package.sh'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/package.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/imu_reader/share/imu_reader/package.zsh'
+[1.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indira/ros2_ws/install/imu_reader/share/colcon-core/packages/imu_reader)
+[4.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake /home/indira/ros2_ws/src/pika-spark-bno085-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/indira/ros2_ws/install/pika_spark_bno085_driver
+[4.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake --build /home/indira/ros2_ws/build/pika_spark_bno085_driver -- -j20 -l20
+[8.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake --build /home/indira/ros2_ws/build/pika_spark_bno085_driver -- -j20 -l20
+[8.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake --install /home/indira/ros2_ws/build/pika_spark_bno085_driver
+[9.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pika_spark_bno085_driver)
+[9.051s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver' for CMake module files
+[9.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake --install /home/indira/ros2_ws/build/pika_spark_bno085_driver
+[9.051s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver' for CMake config files
+[9.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('pika_spark_bno085_driver', 'cmake_prefix_path')
+[9.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/hook/cmake_prefix_path.ps1'
+[9.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/hook/cmake_prefix_path.dsv'
+[9.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/hook/cmake_prefix_path.sh'
+[9.053s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/lib'
+[9.053s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/bin'
+[9.053s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/lib/pkgconfig/pika_spark_bno085_driver.pc'
+[9.054s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/lib/python3.10/site-packages'
+[9.054s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/bin'
+[9.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.ps1'
+[9.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.dsv'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.sh'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.bash'
+[9.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.zsh'
+[9.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/colcon-core/packages/pika_spark_bno085_driver)
+[9.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pika_spark_bno085_driver)
+[9.056s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver' for CMake module files
+[9.056s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver' for CMake config files
+[9.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('pika_spark_bno085_driver', 'cmake_prefix_path')
+[9.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/hook/cmake_prefix_path.ps1'
+[9.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/hook/cmake_prefix_path.dsv'
+[9.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/hook/cmake_prefix_path.sh'
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/lib'
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/bin'
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/lib/pkgconfig/pika_spark_bno085_driver.pc'
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/lib/python3.10/site-packages'
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/indira/ros2_ws/install/pika_spark_bno085_driver/bin'
+[9.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.ps1'
+[9.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.dsv'
+[9.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.sh'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.bash'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.zsh'
+[9.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/indira/ros2_ws/install/pika_spark_bno085_driver/share/colcon-core/packages/pika_spark_bno085_driver)
+[9.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.062s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.062s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.091s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.091s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.092s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[9.092s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indira/ros2_ws/install/local_setup.ps1'
+[9.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/indira/ros2_ws/install/_local_setup_util_ps1.py'
+[9.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indira/ros2_ws/install/setup.ps1'
+[9.094s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indira/ros2_ws/install/local_setup.sh'
+[9.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/indira/ros2_ws/install/_local_setup_util_sh.py'
+[9.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indira/ros2_ws/install/setup.sh'
+[9.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indira/ros2_ws/install/local_setup.bash'
+[9.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indira/ros2_ws/install/setup.bash'
+[9.097s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/indira/ros2_ws/install/local_setup.zsh'
+[9.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/indira/ros2_ws/install/setup.zsh'

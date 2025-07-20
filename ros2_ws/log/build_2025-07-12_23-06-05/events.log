@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (imu_reader) JobQueued: {'identifier': 'imu_reader', 'dependencies': OrderedDict()}
+[0.000190] (pika_spark_bno085_driver) JobQueued: {'identifier': 'pika_spark_bno085_driver', 'dependencies': OrderedDict()}
+[0.000222] (imu_reader) JobStarted: {'identifier': 'imu_reader'}
+[0.006504] (pika_spark_bno085_driver) JobStarted: {'identifier': 'pika_spark_bno085_driver'}
+[0.098718] (-) TimerEvent: {}
+[0.198960] (-) TimerEvent: {}
+[0.211329] (pika_spark_bno085_driver) JobProgress: {'identifier': 'pika_spark_bno085_driver', 'progress': 'cmake'}
+[0.212045] (pika_spark_bno085_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/indira/ros2_ws/src/pika-spark-bno085-driver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/indira/ros2_ws/install/pika_spark_bno085_driver'], 'cwd': '/home/indira/ros2_ws/build/pika_spark_bno085_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'indira'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/indira/micro-ROS-Agent/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/indira'), ('OLDPWD', '/home/indira/ros2_ws/src/pika-spark-bno085-driver'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/indira/ros2_ws/install:/home/indira/micro-ROS-Agent/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'indira'), ('NAME', 'IndiraCReddy'), ('WSL_INTEROP', '/run/WSL/43048_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/indira/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/reddy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/reddy/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/opt/ros/humble/lib/rqt_plot'), ('WT_SESSION', '09e5ca55-2988-4241-8de5-85f0803ccd77'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/indira/ros2_ws/install/imu_reader:/home/indira/micro-ROS-Agent/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/indira/ros2_ws/build/pika_spark_bno085_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/indira/micro-ROS-Agent/install/micro_ros_agent:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.223738] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299049] (-) TimerEvent: {}
+[0.326809] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.338802] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399124] (-) TimerEvent: {}
+[0.490375] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.492194] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.495383] (imu_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/indira/ros2_ws/build/imu_reader/build', '--no-deps', 'symlink_data'], 'cwd': '/home/indira/ros2_ws/build/imu_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'indira', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/indira/micro-ROS-Agent/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'HOME': '/home/indira', 'OLDPWD': '/home/indira/ros2_ws/src/pika-spark-bno085-driver', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/indira/ros2_ws/install:/home/indira/micro-ROS-Agent/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'indira', 'NAME': 'IndiraCReddy', 'WSL_INTEROP': '/run/WSL/43048_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/indira/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/reddy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/reddy/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/opt/ros/humble/lib/rqt_plot', 'WT_SESSION': '09e5ca55-2988-4241-8de5-85f0803ccd77', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/indira/ros2_ws/install/imu_reader:/home/indira/micro-ROS-Agent/install/micro_ros_agent:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/indira/ros2_ws/build/imu_reader', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/indira/micro-ROS-Agent/install/micro_ros_agent', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.497066] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499217] (-) TimerEvent: {}
+[0.504401] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.514227] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.540675] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.541636] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599332] (-) TimerEvent: {}
+[0.693897] (imu_reader) StdoutLine: {'line': b'running develop\n'}
+[0.699418] (-) TimerEvent: {}
+[0.799663] (-) TimerEvent: {}
+[0.814186] (imu_reader) StdoutLine: {'line': b'running egg_info\n'}
+[0.814407] (imu_reader) StdoutLine: {'line': b'writing imu_reader.egg-info/PKG-INFO\n'}
+[0.814653] (imu_reader) StdoutLine: {'line': b'writing dependency_links to imu_reader.egg-info/dependency_links.txt\n'}
+[0.814805] (imu_reader) StdoutLine: {'line': b'writing entry points to imu_reader.egg-info/entry_points.txt\n'}
+[0.814982] (imu_reader) StdoutLine: {'line': b'writing requirements to imu_reader.egg-info/requires.txt\n'}
+[0.815068] (imu_reader) StdoutLine: {'line': b'writing top-level names to imu_reader.egg-info/top_level.txt\n'}
+[0.816447] (imu_reader) StdoutLine: {'line': b"reading manifest file 'imu_reader.egg-info/SOURCES.txt'\n"}
+[0.817079] (imu_reader) StdoutLine: {'line': b"writing manifest file 'imu_reader.egg-info/SOURCES.txt'\n"}
+[0.818245] (imu_reader) StdoutLine: {'line': b'running build_ext\n'}
+[0.818446] (imu_reader) StdoutLine: {'line': b'Creating /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu-reader.egg-link (link to .)\n'}
+[0.819349] (imu_reader) StdoutLine: {'line': b'Installing serial_node script to /home/indira/ros2_ws/install/imu_reader/lib/imu_reader\n'}
+[0.819575] (imu_reader) StdoutLine: {'line': b'\n'}
+[0.819721] (imu_reader) StdoutLine: {'line': b'Installed /home/indira/ros2_ws/build/imu_reader\n'}
+[0.819768] (imu_reader) StdoutLine: {'line': b'running symlink_data\n'}
+[0.840179] (imu_reader) CommandEnded: {'returncode': 0}
+[0.849129] (imu_reader) JobEnded: {'identifier': 'imu_reader', 'rc': 0}
+[0.899758] (-) TimerEvent: {}
+[1.000042] (-) TimerEvent: {}
+[1.100314] (-) TimerEvent: {}
+[1.200557] (-) TimerEvent: {}
+[1.300832] (-) TimerEvent: {}
+[1.401064] (-) TimerEvent: {}
+[1.501313] (-) TimerEvent: {}
+[1.601572] (-) TimerEvent: {}
+[1.701825] (-) TimerEvent: {}
+[1.802064] (-) TimerEvent: {}
+[1.902332] (-) TimerEvent: {}
+[2.003095] (-) TimerEvent: {}
+[2.103341] (-) TimerEvent: {}
+[2.203589] (-) TimerEvent: {}
+[2.303865] (-) TimerEvent: {}
+[2.404114] (-) TimerEvent: {}
+[2.504362] (-) TimerEvent: {}
+[2.604622] (-) TimerEvent: {}
+[2.704850] (-) TimerEvent: {}
+[2.805086] (-) TimerEvent: {}
+[2.905323] (-) TimerEvent: {}
+[3.005559] (-) TimerEvent: {}
+[3.105837] (-) TimerEvent: {}
+[3.206069] (-) TimerEvent: {}
+[3.306353] (-) TimerEvent: {}
+[3.406617] (-) TimerEvent: {}
+[3.506873] (-) TimerEvent: {}
+[3.607183] (-) TimerEvent: {}
+[3.707488] (-) TimerEvent: {}
+[3.807743] (-) TimerEvent: {}
+[3.907983] (-) TimerEvent: {}
+[4.008213] (-) TimerEvent: {}
+[4.108485] (-) TimerEvent: {}
+[4.208718] (-) TimerEvent: {}
+[4.308948] (-) TimerEvent: {}
+[4.330471] (pika_spark_bno085_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.367928] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.409042] (-) TimerEvent: {}
+[4.443569] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.455210] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[4.459044] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/indira/ros2_ws/build/pika_spark_bno085_driver\n'}
+[4.464725] (pika_spark_bno085_driver) CommandEnded: {'returncode': 0}
+[4.465225] (pika_spark_bno085_driver) JobProgress: {'identifier': 'pika_spark_bno085_driver', 'progress': 'build'}
+[4.465816] (pika_spark_bno085_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/indira/ros2_ws/build/pika_spark_bno085_driver', '--', '-j20', '-l20'], 'cwd': '/home/indira/ros2_ws/build/pika_spark_bno085_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'indira'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/indira/micro-ROS-Agent/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/indira'), ('OLDPWD', '/home/indira/ros2_ws/src/pika-spark-bno085-driver'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/indira/ros2_ws/install:/home/indira/micro-ROS-Agent/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'indira'), ('NAME', 'IndiraCReddy'), ('WSL_INTEROP', '/run/WSL/43048_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/indira/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/reddy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/reddy/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/opt/ros/humble/lib/rqt_plot'), ('WT_SESSION', '09e5ca55-2988-4241-8de5-85f0803ccd77'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/indira/ros2_ws/install/imu_reader:/home/indira/micro-ROS-Agent/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/indira/ros2_ws/build/pika_spark_bno085_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/indira/micro-ROS-Agent/install/micro_ros_agent:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[4.502383] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object sh2/CMakeFiles/pika-spark-sh2.dir/sh2_util.c.o\x1b[0m\n'}
+[4.502664] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object sh2/CMakeFiles/pika-spark-sh2.dir/shtp.c.o\x1b[0m\n'}
+[4.502845] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object sh2/CMakeFiles/pika-spark-sh2.dir/sh2_SensorValue.c.o\x1b[0m\n'}
+[4.507667] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object sh2/CMakeFiles/pika-spark-sh2.dir/sh2.c.o\x1b[0m\n'}
+[4.509134] (-) TimerEvent: {}
+[4.585192] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C static library libpika-spark-sh2.a\x1b[0m\n'}
+[4.609260] (-) TimerEvent: {}
+[4.613087] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 45%] Built target pika-spark-sh2\n'}
+[4.628812] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/pika_spark_bno085_driver_node.dir/src/bno085.cpp.o\x1b[0m\n'}
+[4.628966] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/pika_spark_bno085_driver_node.dir/src/main.cpp.o\x1b[0m\n'}
+[4.629464] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/pika_spark_bno085_driver_node.dir/src/bno085_hal.cpp.o\x1b[0m\n'}
+[4.630367] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/pika_spark_bno085_driver_node.dir/src/gpio-sysfs.cpp.o\x1b[0m\n'}
+[4.633392] (pika_spark_bno085_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/pika_spark_bno085_driver_node.dir/src/spi.cpp.o\x1b[0m\n'}
+[4.709397] (-) TimerEvent: {}
+[4.809643] (-) TimerEvent: {}
+[4.909880] (-) TimerEvent: {}
+[5.010172] (-) TimerEvent: {}
+[5.110419] (-) TimerEvent: {}
+[5.210714] (-) TimerEvent: {}
+[5.310989] (-) TimerEvent: {}
+[5.411267] (-) TimerEvent: {}
+[5.511514] (-) TimerEvent: {}
+[5.611765] (-) TimerEvent: {}
+[5.712010] (-) TimerEvent: {}
+[5.812353] (-) TimerEvent: {}
+[5.912606] (-) TimerEvent: {}
+[6.012863] (-) TimerEvent: {}
+[6.113211] (-) TimerEvent: {}
+[6.213459] (-) TimerEvent: {}
+[6.313769] (-) TimerEvent: {}
+[6.414018] (-) TimerEvent: {}
+[6.514339] (-) TimerEvent: {}
+[6.614592] (-) TimerEvent: {}
+[6.714835] (-) TimerEvent: {}
+[6.815086] (-) TimerEvent: {}
+[6.915422] (-) TimerEvent: {}
+[7.015701] (-) TimerEvent: {}
+[7.115984] (-) TimerEvent: {}
+[7.216264] (-) TimerEvent: {}
+[7.316548] (-) TimerEvent: {}
+[7.416826] (-) TimerEvent: {}
+[7.517067] (-) TimerEvent: {}
+[7.617297] (-) TimerEvent: {}
+[7.717530] (-) TimerEvent: {}
+[7.817763] (-) TimerEvent: {}
+[7.918011] (-) TimerEvent: {}
+[8.018284] (-) TimerEvent: {}
+[8.118584] (-) TimerEvent: {}
+[8.218821] (-) TimerEvent: {}
+[8.319088] (-) TimerEvent: {}
+[8.342656] (pika_spark_bno085_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pika_spark_bno085_driver_node\x1b[0m\n'}
+[8.419158] (-) TimerEvent: {}
+[8.519383] (-) TimerEvent: {}
+[8.569075] (pika_spark_bno085_driver) StdoutLine: {'line': b'[100%] Built target pika_spark_bno085_driver_node\n'}
+[8.577429] (pika_spark_bno085_driver) CommandEnded: {'returncode': 0}
+[8.578415] (pika_spark_bno085_driver) JobProgress: {'identifier': 'pika_spark_bno085_driver', 'progress': 'install'}
+[8.584371] (pika_spark_bno085_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/indira/ros2_ws/build/pika_spark_bno085_driver'], 'cwd': '/home/indira/ros2_ws/build/pika_spark_bno085_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'indira'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/indira/micro-ROS-Agent/install/micro_ros_agent/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/indira'), ('OLDPWD', '/home/indira/ros2_ws/src/pika-spark-bno085-driver'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/indira/ros2_ws/install:/home/indira/micro-ROS-Agent/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'indira'), ('NAME', 'IndiraCReddy'), ('WSL_INTEROP', '/run/WSL/43048_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/indira/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/reddy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/reddy/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/opt/ros/humble/lib/rqt_plot'), ('WT_SESSION', '09e5ca55-2988-4241-8de5-85f0803ccd77'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/indira/ros2_ws/install/imu_reader:/home/indira/micro-ROS-Agent/install/micro_ros_agent:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/indira/ros2_ws/build/pika_spark_bno085_driver'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/indira/micro-ROS-Agent/install/micro_ros_agent:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[8.589509] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.589894] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.590414] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/lib/pika_spark_bno085_driver/pika_spark_bno085_driver_node\n'}
+[8.597445] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/config/view_imu.rviz\n'}
+[8.604272] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/launch/imu.py\n'}
+[8.610768] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/launch/rviz2.py\n'}
+[8.617420] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/ament_index/resource_index/package_run_dependencies/pika_spark_bno085_driver\n'}
+[8.619459] (-) TimerEvent: {}
+[8.624035] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/ament_index/resource_index/parent_prefix_path/pika_spark_bno085_driver\n'}
+[8.630954] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/environment/ament_prefix_path.sh\n'}
+[8.637102] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/environment/ament_prefix_path.dsv\n'}
+[8.643036] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/environment/path.sh\n'}
+[8.649278] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/environment/path.dsv\n'}
+[8.655463] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/local_setup.bash\n'}
+[8.661576] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/local_setup.sh\n'}
+[8.667892] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/local_setup.zsh\n'}
+[8.674059] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/local_setup.dsv\n'}
+[8.680243] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.dsv\n'}
+[8.686548] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/ament_index/resource_index/packages/pika_spark_bno085_driver\n'}
+[8.692708] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/cmake/pika_spark_bno085_driverConfig.cmake\n'}
+[8.698581] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/cmake/pika_spark_bno085_driverConfig-version.cmake\n'}
+[8.704706] (pika_spark_bno085_driver) StdoutLine: {'line': b'-- Symlinking: /home/indira/ros2_ws/install/pika_spark_bno085_driver/share/pika_spark_bno085_driver/package.xml\n'}
+[8.712562] (pika_spark_bno085_driver) CommandEnded: {'returncode': 0}
+[8.719683] (-) TimerEvent: {}
+[8.723709] (pika_spark_bno085_driver) JobEnded: {'identifier': 'pika_spark_bno085_driver', 'rc': 0}
+[8.724525] (-) EventReactorShutdown: {}

@@ -1,0 +1,121 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6c4d875f7e1e4e06f22b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "sh2",
+					"jsonFile" : "directory-sh2-590ebfa714dff505beda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "sh2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pika_spark_bno085_driver",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pika-spark-sh2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "pika-spark-sh2::@b38de093aad142302afe",
+					"jsonFile" : "target-pika-spark-sh2-a8b0c1d02165cb62235c.json",
+					"name" : "pika-spark-sh2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pika_spark_bno085_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pika_spark_bno085_driver_node-0eca29bb59087c537179.json",
+					"name" : "pika_spark_bno085_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pika_spark_bno085_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pika_spark_bno085_driver_uninstall-0f6fb2557834d239d915.json",
+					"name" : "pika_spark_bno085_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2f274e513a4052a8974b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/indira/ros2_ws/build/pika_spark_bno085_driver",
+		"source" : "/home/indira/ros2_ws/src/pika-spark-bno085-driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

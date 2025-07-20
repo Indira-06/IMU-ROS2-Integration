@@ -1,0 +1,3 @@
+[console_scripts]
+serial_node = imu_reader.serial_node:main
+

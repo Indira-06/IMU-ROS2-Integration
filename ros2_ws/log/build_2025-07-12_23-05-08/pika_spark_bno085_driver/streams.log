@@ -1,0 +1,44 @@
+[0.207s] Invoking command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake /home/indira/ros2_ws/src/pika-spark-bno085-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/indira/ros2_ws/install/pika_spark_bno085_driver
+[0.422s] -- The C compiler identification is GNU 11.4.0
+[0.817s] -- The CXX compiler identification is GNU 11.4.0
+[1.032s] -- Detecting C compiler ABI info
+[1.206s] -- Detecting C compiler ABI info - done
+[1.213s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.215s] -- Detecting C compile features
+[1.215s] -- Detecting C compile features - done
+[1.219s] -- Detecting CXX compiler ABI info
+[1.329s] -- Detecting CXX compiler ABI info - done
+[1.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.335s] -- Detecting CXX compile features
+[1.336s] -- Detecting CXX compile features - done
+[1.347s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.628s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.793s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.800s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.812s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.921s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.925s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.934s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.979s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.917s] -- Looking for pthread.h
+[6.035s] -- Looking for pthread.h - found
+[6.036s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.143s] -- Found Threads: TRUE  
+[6.219s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.261s] [31mCMake Error at CMakeLists.txt:13 (add_subdirectory):
+[6.261s]   The source directory
+[6.261s] 
+[6.261s]     /home/indira/ros2_ws/src/pika-spark-bno085-driver/sh2
+[6.261s] 
+[6.261s]   does not contain a CMakeLists.txt file.
+[6.261s] 
+[6.261s] [0m
+[6.318s] -- Configuring incomplete, errors occurred!
+[6.318s] See also "/home/indira/ros2_ws/build/pika_spark_bno085_driver/CMakeFiles/CMakeOutput.log".
+[6.326s] Invoked command in '/home/indira/ros2_ws/build/pika_spark_bno085_driver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/indira/ros2_ws/install/imu_reader:/opt/ros/humble /usr/bin/cmake /home/indira/ros2_ws/src/pika-spark-bno085-driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/indira/ros2_ws/install/pika_spark_bno085_driver

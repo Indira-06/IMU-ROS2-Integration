@@ -1,0 +1,4 @@
+source;share/pika_spark_bno085_driver/local_setup.bash
+source;share/pika_spark_bno085_driver/local_setup.dsv
+source;share/pika_spark_bno085_driver/local_setup.sh
+source;share/pika_spark_bno085_driver/local_setup.zsh

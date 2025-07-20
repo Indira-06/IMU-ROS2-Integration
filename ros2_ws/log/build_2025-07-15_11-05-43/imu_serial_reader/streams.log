@@ -1,0 +1,17 @@
+[0.652s] Invoking command in '/home/indira/ros2_ws/build/imu_serial_reader': PYTHONPATH=/home/indira/ros2_ws/build/imu_serial_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_serial_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indira/ros2_ws/build/imu_serial_reader/build --no-deps symlink_data
+[0.820s] running develop
+[0.929s] running egg_info
+[0.930s] writing imu_serial_reader.egg-info/PKG-INFO
+[0.930s] writing dependency_links to imu_serial_reader.egg-info/dependency_links.txt
+[0.931s] writing entry points to imu_serial_reader.egg-info/entry_points.txt
+[0.931s] writing requirements to imu_serial_reader.egg-info/requires.txt
+[0.932s] writing top-level names to imu_serial_reader.egg-info/top_level.txt
+[0.933s] reading manifest file 'imu_serial_reader.egg-info/SOURCES.txt'
+[0.933s] writing manifest file 'imu_serial_reader.egg-info/SOURCES.txt'
+[0.934s] running build_ext
+[0.934s] Creating /home/indira/ros2_ws/install/imu_serial_reader/lib/python3.10/site-packages/imu-serial-reader.egg-link (link to .)
+[0.935s] Installing serial_reader_node script to /home/indira/ros2_ws/install/imu_serial_reader/lib/imu_serial_reader
+[0.935s] 
+[0.935s] Installed /home/indira/ros2_ws/build/imu_serial_reader
+[0.935s] running symlink_data
+[0.967s] Invoked command in '/home/indira/ros2_ws/build/imu_serial_reader' returned '0': PYTHONPATH=/home/indira/ros2_ws/build/imu_serial_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_serial_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/indira/ros2_ws/build/imu_serial_reader/build --no-deps symlink_data

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/indira/ros2_ws/build/pika_spark_bno085_driver/pika_spark_bno085_driver_node" "TARGETS" "pika_spark_bno085_driver_node" "DESTINATION" "lib/pika_spark_bno085_driver")

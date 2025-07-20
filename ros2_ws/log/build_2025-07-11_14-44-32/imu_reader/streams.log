@@ -1,0 +1,37 @@
+[0.693s] Invoking command in '/home/indira/ros2_ws/src/imu_reader': PYTHONPATH=/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_reader build --build-base /home/indira/ros2_ws/build/imu_reader/build install --record /home/indira/ros2_ws/build/imu_reader/install.log --single-version-externally-managed install_data
+[0.908s] running egg_info
+[0.908s] creating ../../build/imu_reader/imu_reader.egg-info
+[0.909s] writing ../../build/imu_reader/imu_reader.egg-info/PKG-INFO
+[0.909s] writing dependency_links to ../../build/imu_reader/imu_reader.egg-info/dependency_links.txt
+[0.909s] writing entry points to ../../build/imu_reader/imu_reader.egg-info/entry_points.txt
+[0.909s] writing requirements to ../../build/imu_reader/imu_reader.egg-info/requires.txt
+[0.909s] writing top-level names to ../../build/imu_reader/imu_reader.egg-info/top_level.txt
+[0.909s] writing manifest file '../../build/imu_reader/imu_reader.egg-info/SOURCES.txt'
+[0.911s] reading manifest file '../../build/imu_reader/imu_reader.egg-info/SOURCES.txt'
+[0.911s] writing manifest file '../../build/imu_reader/imu_reader.egg-info/SOURCES.txt'
+[0.912s] running build
+[0.912s] running build_py
+[0.912s] creating /home/indira/ros2_ws/build/imu_reader/build
+[0.913s] creating /home/indira/ros2_ws/build/imu_reader/build/lib
+[0.913s] creating /home/indira/ros2_ws/build/imu_reader/build/lib/imu_reader
+[0.913s] copying imu_reader/__init__.py -> /home/indira/ros2_ws/build/imu_reader/build/lib/imu_reader
+[0.913s] copying imu_reader/serial_node.py -> /home/indira/ros2_ws/build/imu_reader/build/lib/imu_reader
+[0.914s] running install
+[0.914s] running install_lib
+[0.914s] creating /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader
+[0.915s] copying /home/indira/ros2_ws/build/imu_reader/build/lib/imu_reader/__init__.py -> /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader
+[0.915s] copying /home/indira/ros2_ws/build/imu_reader/build/lib/imu_reader/serial_node.py -> /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader
+[0.915s] byte-compiling /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader/__init__.py to __init__.cpython-310.pyc
+[0.916s] byte-compiling /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader/serial_node.py to serial_node.cpython-310.pyc
+[0.916s] running install_data
+[0.917s] creating /home/indira/ros2_ws/install/imu_reader/share/ament_index
+[0.917s] creating /home/indira/ros2_ws/install/imu_reader/share/ament_index/resource_index
+[0.917s] creating /home/indira/ros2_ws/install/imu_reader/share/ament_index/resource_index/packages
+[0.917s] copying resource/imu_reader -> /home/indira/ros2_ws/install/imu_reader/share/ament_index/resource_index/packages
+[0.917s] copying package.xml -> /home/indira/ros2_ws/install/imu_reader/share/imu_reader
+[0.917s] running install_egg_info
+[0.919s] Copying ../../build/imu_reader/imu_reader.egg-info to /home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages/imu_reader-0.0.0-py3.10.egg-info
+[0.920s] running install_scripts
+[0.939s] Installing serial_node script to /home/indira/ros2_ws/install/imu_reader/lib/imu_reader
+[0.940s] writing list of installed files to '/home/indira/ros2_ws/build/imu_reader/install.log'
+[0.964s] Invoked command in '/home/indira/ros2_ws/src/imu_reader' returned '0': PYTHONPATH=/home/indira/ros2_ws/build/imu_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/indira/ros2_ws/install/imu_reader/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_reader build --build-base /home/indira/ros2_ws/build/imu_reader/build install --record /home/indira/ros2_ws/build/imu_reader/install.log --single-version-externally-managed install_data
