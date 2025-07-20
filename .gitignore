@@ -1,0 +1,3 @@
+# Ignore VSCode folders and database files
+.vscode/
+*.db
