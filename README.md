@@ -353,3 +353,5 @@ The Biped in our lab is currently able to do Squats. We need to get it walking
 - WSL2 + Hardware is functional but finicky
 - IMU reset issues might be due to virtualized USB stack
 - Consider full hardware Linux test to isolate software-side bugs
+
+© 2025 Indira C Reddy
